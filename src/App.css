@@ -14,7 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url('https://c.tenor.com/qBW3DRiyl_QAAAAC/among-us.gif');
+  /*background-color: #1b263f;*/
   min-height: 100vh;
   display: flex;
   flex-direction: column;
