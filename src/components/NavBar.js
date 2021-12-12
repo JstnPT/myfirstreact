@@ -10,7 +10,7 @@ const NavBar = () => {
                                 <a class="nav-link" href="/myfirstreact">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/myfirstreact/employee">Employees</a>
+                                <a class="nav-link" href="/myfirstreact/employees">Employees</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/myfirstreact/add">Add Employee</a>

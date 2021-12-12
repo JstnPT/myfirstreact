@@ -41,7 +41,7 @@ const Employee = () => {
         <div className="container">
             <h3>List of Employees</h3>
             <div>
-                <Link to="/add" className="btn btn-warning btn=primary mb-2">Add Employee</Link>
+                <Link to="/myfirstreact/add" className="btn btn-warning btn=primary mb-2">Add Employee</Link>
                 <table className="table table-hover table-light table-striped" >
                     <thead>
                         <tr className="table-dark">
@@ -61,7 +61,7 @@ const Employee = () => {
                                         <td>{employee.department}</td>
                                         <td>
                                             <div className="d-grid gap-2 d-md-flex justify-content-md-center">
-                                                <Link className="btn btn-warning" to={`/edit/${employee.employeeId}`}>Update</Link>
+                                                <Link className="btn btn-warning" to={`/myfirstreact/edit/${employee.employeeId}`}>Update</Link>
                                                 <button className="btn btn-danger" onClick={() => deleteEmployee(employee.employeeId)}>Delete</button>
                                             </div>
                                         </td>
