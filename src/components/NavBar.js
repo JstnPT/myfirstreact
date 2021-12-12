@@ -5,17 +5,15 @@ const NavBar = () => {
                 <div class="container-fluid">
                     <a class="navbar-brand" href="/myfirstreact">Amogus</a>
                     <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
+
+                            
                                 <a class="nav-link" href="/myfirstreact">Home</a>
-                            </li>
-                            <li class="nav-item">
+
                                 <a class="nav-link" href="/myfirstreact/employees">Employees</a>
-                            </li>
-                            <li class="nav-item">
+
+>
                                 <a class="nav-link" href="/myfirstreact/add">Add Employee</a>
-                            </li>
-                        </ul>
+
                     </div>
                 </div>
             </nav>
