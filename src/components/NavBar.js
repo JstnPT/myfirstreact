@@ -3,17 +3,17 @@ const NavBar = () => {
         <div>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="/">Amogus</a>
+                    <a class="navbar-brand" href="/myfirstreact">Amogus</a>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="/">Home</a>
+                                <a class="nav-link" href="/myfirstreact">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/employees">Employees</a>
+                                <a class="nav-link" href="/myfirstreact/employees">Employees</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/add">Add Employee</a>
+                                <a class="nav-link" href="/myfirstreact/add">Add Employee</a>
                             </li>
                         </ul>
                     </div>
