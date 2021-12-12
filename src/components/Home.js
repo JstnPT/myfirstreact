@@ -1,9 +1,6 @@
-import logo from '../logo.svg';
 import '../App.css';
 import Button from './Button';
 import Hello from './Hello';
-import Employee from './Employee';
-import NavBar from './NavBar';
 
 function Home() {
   return (
@@ -33,4 +30,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Home

@@ -15,9 +15,6 @@ const NavBar = () => {
                             <li class="nav-item">
                                 <a class="nav-link" href="/add">Add Employee</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -26,4 +23,4 @@ const NavBar = () => {
     )
 }
 
-export default NavBar;
+export default NavBar
