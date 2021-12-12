@@ -7,7 +7,7 @@ import PageNotFound from "./PageNotFound";
 const Router =() =>{
     return(
         <div>
-            <BrowserRouter>
+            <BrowserRouter basename="/jstnpt">
                 <Routes>
                     <Route exact path="/myfirstreact" element={<Home/>}/>
                     <Route exact path="/myfirstreact/employees"  element={<Employee/>}/>
